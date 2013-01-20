@@ -1,0 +1,14 @@
+JDK:
+C:\MyFiles\dev\workspaces\DesignPatterns\ProxyPattern>set PATH=%PATH%;C:\MyFiles\dev\Java_sdk\jdk\bin
+
+Service:
+
+C:\MyFiles\dev\workspaces\DesignPatterns\ProxyPattern>rmic -keep -classpath .\bin service.Service
+
+C:\MyFiles\dev\workspaces\DesignPatterns\ProxyPattern\bin>rmiregistry
+
+C:\MyFiles\dev\workspaces\DesignPatterns\ProxyPattern\bin>java -classpath . service.Service
+
+Client:
+
+C:\MyFiles\dev\workspaces\DesignPatterns\ProxyPattern\bin>java -classpath . client.Client
