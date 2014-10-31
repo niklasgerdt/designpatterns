@@ -1,4 +1,4 @@
 designpatterns
 ==============
 
-Simple spikes and examples of common design patterns.
+Spikes and examples of design patterns. 
